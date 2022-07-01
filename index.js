@@ -1,9 +1,9 @@
-import { v4 as uuidv4 } from "uuid";
+const uuid = require('uuid');
 
 function gera_lista_uuid_v4(quantidade) {
   let lista_uuid_v4 = [];
   for (let index = 0; index < quantidade; index++) {
-    lista_uuid_v4.push(uuidv4());
+    lista_uuid_v4.push(uuid.v4());
   }
   return lista_uuid_v4;
 }
@@ -15,4 +15,4 @@ function exibe_lista_resultado(quantidade) {
   })
 }
 
-exibe_lista_resultado(27);
+exibe_lista_resultado(3);
