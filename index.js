@@ -15,4 +15,4 @@ function exibe_lista_resultado(quantidade) {
   })
 }
 
-exibe_lista_resultado(3);
+exibe_lista_resultado(27);
