@@ -1,0 +1,18 @@
+{
+  "name": "gera_uuid",
+  "version": "1.0.0",
+  "description": "gera uuid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "uuid"
+  ],
+  "author": "otavio",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
